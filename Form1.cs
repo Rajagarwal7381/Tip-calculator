@@ -18,6 +18,7 @@ namespace Tip_Calculator
 
         private void button2_Click(object sender, EventArgs e)
         {
+        // Check Null Value
             if (txttip.Text.Trim() != null && txttip.Text.Trim() != "")
             {
                 double rmvper = rmvpr(txttip.Text.Trim());
@@ -29,6 +30,7 @@ namespace Tip_Calculator
 
         private void button1_Click(object sender, EventArgs e)
         {
+        // Check Null Value
             if (txttip.Text.Trim() != null && txttip.Text.Trim() != "")
             {
                 double rmvper = rmvpr(txttip.Text.Trim());
@@ -47,6 +49,7 @@ namespace Tip_Calculator
             }
             return Convert.ToDouble(str);
         }
+        // To Calculate Tip per person Doller 
         private double tpp(double bill, double tip, double ppl)
         {
             double res = bill * tip / 100;
@@ -54,6 +57,7 @@ namespace Tip_Calculator
             lbltip.Text = "$"+res.ToString("0.00");
             return res;
         }
+        // To Calculate Total per person Doller 
         private void totalp(double bill, double tip, double tpper)
         {
             double tepp = tpp(bill, tip, tpper);
@@ -68,6 +72,7 @@ namespace Tip_Calculator
         }
         private void calculate(string txtstr)
         {
+        // To handle Exception
             try
             {
                 if (txtstr != null && txtstr != "")
@@ -76,12 +81,15 @@ namespace Tip_Calculator
                     double ppl = Convert.ToDouble(txtppl.Text.Trim());
                     string tip = txttip.Text.Trim();
                     double tp = rmvpr(tip);
+                     // To Calculate Tip per person Doller
                     tpp(bill, tp, ppl);
+                    // To Calculate per person Doller 
                     totalp(bill, tp, ppl);
                 }
             }
             catch (Exception ex)
             {
+            // To Show Message
                 MessageBox.Show("Something went wrong! please try again later...");
      
             }
