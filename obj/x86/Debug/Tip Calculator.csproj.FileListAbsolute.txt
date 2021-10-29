@@ -1,0 +1,8 @@
+C:\Users\Pranav\documents\visual studio 2010\Projects\Tip Calculator\Tip Calculator\bin\Debug\Tip Calculator.exe
+C:\Users\Pranav\documents\visual studio 2010\Projects\Tip Calculator\Tip Calculator\bin\Debug\Tip Calculator.pdb
+C:\Users\Pranav\documents\visual studio 2010\Projects\Tip Calculator\Tip Calculator\obj\x86\Debug\Tip Calculator.csprojResolveAssemblyReference.cache
+C:\Users\Pranav\documents\visual studio 2010\Projects\Tip Calculator\Tip Calculator\obj\x86\Debug\Tip_Calculator.Form1.resources
+C:\Users\Pranav\documents\visual studio 2010\Projects\Tip Calculator\Tip Calculator\obj\x86\Debug\Tip_Calculator.Properties.Resources.resources
+C:\Users\Pranav\documents\visual studio 2010\Projects\Tip Calculator\Tip Calculator\obj\x86\Debug\Tip Calculator.csproj.GenerateResource.Cache
+C:\Users\Pranav\documents\visual studio 2010\Projects\Tip Calculator\Tip Calculator\obj\x86\Debug\Tip Calculator.exe
+C:\Users\Pranav\documents\visual studio 2010\Projects\Tip Calculator\Tip Calculator\obj\x86\Debug\Tip Calculator.pdb
