@@ -1,0 +1,41 @@
+# Test cases
+
+1.If string value is given as input , then output will not be displayed and it will show error.
+
+2.Only positive values are allowed as input.
+
+3.If '+' symbol used then  tip value should increase by 1% .
+
+4.if '-' is used then tip value should decrease by 1%.
+
+5.If '+' symbol used for the number of people then  the number of people would increase by 1% .
+
+6.if '-' is used number of people will decrease  by 1%.
+
+7.For input value in number of people 0 is not allowed.
+
+8.For the number of people, user can input any random value as input.
+
+9.For the value of tip ,user can input any random value as input.
+
+10.According to number of people, the total amount of money should be displayed.
+
+11.Tip amount should be displayed as per the number of people.
+
+12.The amount of money should be exactly , And will be displayed upto two decimal places only.
+
+13.As per the convenience, value gets changed of any input then calculation would be done accordingly.
+
+14.User cannot use any kind of special symbol or spaces as input .
+
+15.Characters are not allowed for input values.
+
+16.User can not change the amount of tip per person and total per person  directly.
+
+17.Negative values are not allowed for number of people as Input.
+
+18.User can input tip value in % too.
+
+19.User can use % sign or not  into tip percent Its depends on user but money will be calculate according to percentage.
+
+20.Number of people and amount of tip should be in round figure.
