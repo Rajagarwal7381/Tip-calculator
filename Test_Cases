@@ -36,6 +36,6 @@
 
 18.User can input tip value in % too.
 
-19.User can use % sign or not  into tip percent Its depends on user but money will be calculate according to percentage.
+19.The use of % for the input totally depends on the user but the amount of money will be calculated accordingly to the percentage.
 
 20.Number of people and amount of tip should be in round figure.
